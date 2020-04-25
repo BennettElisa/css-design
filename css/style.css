@@ -1,0 +1,207 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Montserrat', sans-serif; */
+/*Ctrl + Option + B = Beatify*/
+
+
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive
+
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #d3f6f3;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.top-cloud {
+  position: absolute;
+  /* right: 225px; */
+  /* top: 50px; */
+  right: 15%;
+  top: 10%;
+}
+
+.landscape {
+  margin-bottom: 0;
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  padding-top: 25px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 55%
+  /* left: 300px; */
+  /* bottom: 525px; */
+}
+
+/* Float Options - but then the h1 element gets messy
+.top-cloud {
+  width: 15%;
+  float: right;
+  margin-right: 200px;
+}
+
+.bottom-cloud {
+  width: 15%;
+  float: left;
+  margin-left: 200px;
+}
+*/
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.html-icon {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+
+.compost-icon {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.middle-container {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.profile {
+  margin-bottom: 100px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.profile-description {
+  color: #40514E;
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.attribution {
+  font-size: 1rem;
+  color: #40514E;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: auto 30px auto 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+/* Contact Me Button Code */
+.myButton {
+  box-shadow: inset 0px 1px 9px 0px #66bfbf;
+  background-color: #66bfbf;
+  border-radius: 6px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-shadow: 0px 0px 28px #2b665e;
+  margin-top: 50px;
+}
+
+.myButton:hover {
+  background-color: #6c7c7c;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
